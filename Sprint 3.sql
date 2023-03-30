@@ -4,7 +4,7 @@ create table usuario (
   email varchar(45) constraint email_user_nn not null,
   senha varchar(11)constraint senha_user_nn not null);
 
-create table save (
+create table save1 (
   id_save number (11) constraint id_save_pk primary key,
   tempo_total date constraint temp_save_nn not null,
   nome_save varchar(15)constraint nm_save_nn not null,
